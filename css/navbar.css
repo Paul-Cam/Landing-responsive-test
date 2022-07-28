@@ -55,7 +55,7 @@
     display: none;
 }
 
-.logotype{
+.logotype {
     display: flex;
     justify-content: center;
 }
@@ -106,9 +106,9 @@
         opacity: 1;
         pointer-events: all;
     }
-    
+
     .open-menu:focus:not(:focus-visible),
-    .close-menu:focus:not(:focus-visible){
+    .close-menu:focus:not(:focus-visible) {
         outline: none;
     }
 }
