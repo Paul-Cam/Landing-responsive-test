@@ -43,7 +43,7 @@
 }
 
 .menu a {
-    color: var(--primary-color);
+    color: var(--text-color);
     font-size: 18px;
     font-weight: 500;
     line-height: 50px;
@@ -53,6 +53,11 @@
 .open-menu,
 .close-menu {
     display: none;
+}
+
+.logotype{
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width:950px) {
